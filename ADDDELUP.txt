@@ -1,0 +1,44 @@
+
+// <div className="App">
+// <button onClick={()=>{
+//  Firebase.firestore().collection('products').get().then(snapshot=>{
+//   snapshot.forEach((obj)=>{
+//     console.log(obj.data(),obj.id);
+  
+//   })
+  
+//  });
+
+// }}>click me</button>
+
+
+//add
+
+{/* <button onClick={()=>{
+  Firebase.firestore().collection('products').doc('CSZwSxk0gX2vFtxbctWH')add({
+   Name:'mi',
+   price:1000
+
+  })
+ 
+
+ }}>click me</button> */}
+
+ //delete
+
+ //Firebase.firestore().collection('products').doc('CSZwSxk0gX2vFtxbctWH').delete().then(()=>{
+
+//   console.log('deleted')
+//  })
+
+
+// DELETE
+// <button onClick={()=>{
+//   Firebase.firestore().collection('products').doc('XYYArXHYJ2fAKhLi8ZRQ').set({
+
+//  Price:2000
+ 
+//   })
+ 
+
+//  }}>click me</button>
